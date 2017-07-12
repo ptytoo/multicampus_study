@@ -100,7 +100,8 @@ print(a[idx])
 a = np.array([[1,2,3,4],[5,6,7,8],[9,10,11,12]])
 print(a)
 #왜 답이 다르게 나오지...?;;;;
+d=[True,False,False,True]
 print(a[:, [True,False,False,True]])
-print(a[:, [True, False, False, True]])
+print(a[:, d])
 
 print(a[[2,0,1],:])
